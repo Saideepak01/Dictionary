@@ -17,7 +17,7 @@ const middle = document.querySelector(".changing");
 middle.innerHTML = `
     <div class="row caption d-flex flex-wrap">
         <div class="col d-flex">
-            <p class="slogan">Dive deep into the world of endless words and advance your knowledge and learning with this <a href="#" class="Link">dictionary</a> 😉</p>
+            <p class="slogan">Dive deep into the world of endless words to advance your knowledge and learning with our <a href="#" class="Link">dictionary</a> 😉</p>
         </div>
         <div class="col">
             <img src="clip-reading-books.png" class="img-fluid illustration" alt="reading_book_illustration">
