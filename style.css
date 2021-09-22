@@ -77,14 +77,22 @@ span{
     text-align: center;
 }
 .footingbg{
-  background-image: linear-gradient(to right top, #000000, #463634, #896e5d, #c3b288, #ecffc2);
+  background-image: linear-gradient(92deg, #f35626, #feab3a);
   background-clip: text;
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
+  animation: hue 10s infinite linear;
+  -webkit-animation: hue 10s infinite linear;
+  -moz-animation: hue 10s infinite linear;
 }
-.downtext{
-  text-align: center;
+@keyframes hue {
+  0% {
+    filter: hue-rotate(0deg);
+  }
+  100% {
+    filter: hue-rotate(360deg);
+  }
 }
 .footer{
   position: sticky;
